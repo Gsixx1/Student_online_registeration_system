@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(81, 111, 151);    
+    width: 100%;
+    height: auto;
+    position: fixed;  
+}
+
+
+ul{
+    top: 0px;
+    right: 20px;
+    right: 94px;
+    height: 90px;
+    float: right;
+    /* display:flex; */
+    /* align-content: center; */
+    position: absolute;
+}
+
+ul li {
+    display:inline-block;
+    padding-top: 14px;
+}
+li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+    text-align: none;
+    margin-left: 80px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-align: none;        */
+    /* display: inline-block; */
+}
+
+.header img{
+    height: 55px;
+    width: 140px;
+    margin-bottom: -4px;
+}
+
+.intro{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(233, 217, 217);
+    /* flex: ; */
+    display: flex;
+    /* flex-flow: row wrap; */
+    /* position: relative; */
+}
+
+.introcard1,
+.introcard2 {
+    height: 60px;
+    width: 100px;
+    background: white;
+    
+}
+
+.form_container{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(226, 213, 213);
+    position: absolute;
+    margin-top: 55px;
+    text-align: center;
+    justify-content: center;
+    /* content: center; */
+    align-content: center;
+}
+
+.panel_primary_border {
+    border: 1px solid;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    /* border-style: center;    */
+    /* position: absolute; */
+    /* margin-right: 100px; */
+}
+
+.panel_heading{
+    /* background-color: rgb(102, 52, 150); */
+    margin-top: 10px;
+    height: 40px;
+    font-size: 30px;
+    padding-top: 9px;
+    color: rgb(51, 117, 86);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+form{
+    align-content: center;
+    position: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.form-group {
+    /* position: fixed; */
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 200px; */
+}
+#fname,
+#lname,
+#dob,
+#phone_number,
+#next_of_kin,
+#email,
+#edu_level{
+    height: 30px;
+    width: 309px;
+    /* border-block-style: ; */
+}
+
+
+#add_home{
+    height: 30px;
+    width: 309px;
+}
+.lbfn{
+    margin-left: -230px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lbln{
+    margin-left: -230px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lbdob{margin-left: -212px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lbadrs{margin-left: -247px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lbpnmb{margin-left: -195px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lbnxk{margin-left: -223px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lbeml{margin-left: -266px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lbedulvl{margin-left: -177px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sign_upsave {
+    margin:10px 0px 10px 0px;
+    height: 25px;
+    width: 80px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color:cornflowerblue;
+    color: floralwhite;
+    cursor: pointer;
+}
+
+#searchh{
+    height: 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    padding-left: 5px;
+}
